@@ -19,7 +19,7 @@ class MarketDataProvider:
         """
         if not tickers:
             raise ValueError("Список тикеров пуст. Невозможно загрузить данные.")
-
+ 
         try:
             print(f"Загрузка данных для {tickers} за период {period}...")
             # Загружаем данные. Если тикер один, yfinance возвращает Series,
